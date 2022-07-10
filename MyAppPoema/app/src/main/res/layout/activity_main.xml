@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/txtBandera"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_bandera"
+        android:layout_marginTop="50sp"
+        />
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtBandera"
+        android:text="POEMAS DE GUATEMALA"
+        android:gravity="center"
+        android:layout_marginTop="65sp"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/btnPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginTop="40sp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:text="Precolombina"
+        />
+
+    <Button
+        android:id="@+id/btnXVIII"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPreco"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:text="Siglo XVIII"
+        />
+
+    <Button
+        android:id="@+id/btnXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnXVIII"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:text="Siglo XX"
+        />
+
+
+</RelativeLayout>

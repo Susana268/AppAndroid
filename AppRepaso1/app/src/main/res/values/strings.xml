@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppRepaso1</string>
+    <string name="textoSuma">
+        Se piensa que el ser humano del neolítico ya manejaba los principios matemáticos elementales, entre los que necesariamente estarían la adición y la resta, dado que estas operaciones son fáciles de evidenciar de cara a las provisiones agrícolas que aumentaban y disminuían conforme a la época del año.
+        \n Los egipcios llegaron a sumar lo que se llaman hoy, números naturales y los números fraccionarios. Los babilonios llegaron a sumar los cuadrados de los números naturales. Los chinos y los hindúes sumaron números negativos. En el Renacimiento, con el auge de la banca y del comercio, se impuso la suma de decimales, catapultada por el uso del sistema de numeración decimal. Además se popularizó la adición de logaritmos vulgares, que reemplazaba eficazmente a la multiplicación de números tanto en el comercio, finanzas, astronomía, navegación, etc.
+    </string>
+
+</resources>

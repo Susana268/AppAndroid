@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyAppNoticiero</string>
+    <string name="titulo">
+        Noticiero El Momento
+    </string>
+    <string name="noticia1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis enim a mauris ultrices ullamcorper. Duis scelerisque eleifend justo, consequat fermentum nisi venenatis quis. Phasellus commodo neque sed dui condimentum elementum. In pellentesque, sem ac tempus maximus, orci massa feugiat velit, pretium egestas arcu tellus id diam. Phasellus eget ultricies ex. Aenean et felis et lorem tempor imperdiet quis a lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam a euismod enim. Pellentesque tincidunt lacus quis libero iaculis, id eleifend lacus commodo. Ut nec egestas neque, id imperdiet ex. Quisque orci mi, tincidunt sit amet vehicula quis, finibus non turpis.
+
+Nunc laoreet risus nisl, in suscipit orci luctus quis. Morbi est mi, pellentesque et libero ac, posuere suscipit risus. Curabitur felis metus, rutrum in ipsum in, tristique viverra leo. Sed tincidunt interdum mollis. Proin nisl dui, iaculis sit amet orci vehicula, ornare facilisis odio. Donec ex magna, cursus at urna in, vestibulum porta libero. Fusce a euismod nulla. Sed varius maximus magna at volutpat. Pellentesque porta justo ut nulla iaculis maximus. Sed id congue quam. Cras sit amet arcu nulla. Quisque et leo tristique, viverra ipsum nec, consequat justo. Nunc elementum metus ac turpis faucibus, lacinia faucibus dui luctus. Sed tincidunt urna mi, nec tincidunt nisl convallis a. Nunc tincidunt lorem nec velit pretium, in ullamcorper risus condimentum.
+    </string>
+    <string name="noticia2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis enim a mauris ultrices ullamcorper. Duis scelerisque eleifend justo, consequat fermentum nisi venenatis quis. Phasellus commodo neque sed dui condimentum elementum. In pellentesque, sem ac tempus maximus, orci massa feugiat velit, pretium egestas arcu tellus id diam. Phasellus eget ultricies ex. Aenean et felis et lorem tempor imperdiet quis a lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam a euismod enim. Pellentesque tincidunt lacus quis libero iaculis, id eleifend lacus commodo. Ut nec egestas neque, id imperdiet ex. Quisque orci mi, tincidunt sit amet vehicula quis, finibus non turpis.
+
+Nunc laoreet risus nisl, in suscipit orci luctus quis. Morbi est mi, pellentesque et libero ac, posuere suscipit risus. Curabitur felis metus, rutrum in ipsum in, tristique viverra leo. Sed tincidunt interdum mollis. Proin nisl dui, iaculis sit amet orci vehicula, ornare facilisis odio. Donec ex magna, cursus at urna in, vestibulum porta libero. Fusce a euismod nulla. Sed varius maximus magna at volutpat. Pellentesque porta justo ut nulla iaculis maximus. Sed id congue quam. Cras sit amet arcu nulla. Quisque et leo tristique, viverra ipsum nec, consequat justo. Nunc elementum metus ac turpis faucibus, lacinia faucibus dui luctus. Sed tincidunt urna mi, nec tincidunt nisl convallis a. Nunc tincidunt lorem nec velit pretium, in ullamcorper risus condimentum.
+    </string>
+    <string name="noticia3">
+        Noticia numero tres
+    </string>
+</resources>

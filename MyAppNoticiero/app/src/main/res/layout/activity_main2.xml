@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textSize="25sp"
+        android:layout_marginTop="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_margin="15sp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Noticia 1"
+               android:textStyle="italic"
+               android:textSize="25sp"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/noticia1"
+               android:textSize="15sp"
+               android:textIsSelectable="true"
+               android:justificationMode="inter_word"
+               android:layout_marginBottom="25sp"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Noticia2"
+               android:textStyle="italic"
+               android:textSize="25sp"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/noticia2"
+               android:textSize="15sp"
+               android:textIsSelectable="true"
+               android:justificationMode="inter_word"
+               android:layout_marginBottom="25sp"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Noticia3"
+               android:textStyle="italic"
+               android:textSize="25sp"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/noticia3"
+               android:textSize="15sp"
+               android:textIsSelectable="true"
+               android:justificationMode="inter_word"
+               android:layout_marginBottom="25sp"
+               />
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_crash"
+               />
+
+       </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

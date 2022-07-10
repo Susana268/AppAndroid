@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor de Venta"
+        android:gravity="center"
+        android:layout_marginTop="65sp"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="1sp"
+        android:hint="Ingrese Nombre Producto"
+        android:inputType="text"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNombre"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="1sp"
+        android:hint="Ingrese Valor"
+        android:inputType="text"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtValor"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="1sp"
+        android:hint="Ingrese Cantidad"
+        android:inputType="text"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:layout_below="@id/edtCantidad"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="80sp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResultado"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:text="Mostrar"
+        android:onClick="onClick"
+        />
+
+</RelativeLayout>

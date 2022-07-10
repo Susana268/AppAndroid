@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txtTextoN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65sp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Menor de Edad"
+        />
+    <TextView
+        android:id="@+id/txtValor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="50sp"
+        android:textSize="25sp"
+        android:text="Factor 1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtTextoN"
+        />
+
+    <TextView
+        android:id="@+id/txtSuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="50sp"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txtTextoN"
+        />
+
+    <TextView
+        android:id="@+id/txtValor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="50sp"
+        android:textSize="25sp"
+        android:text="Factor 2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtTextoN"
+        />
+
+    <EditText
+        android:id="@+id/txtResSuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtValor2"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="30sp"
+        android:hint="Ingrese Resultado"
+        android:inputType="number" />
+
+
+    <ImageView
+     android:id="@+id/imgBiberon"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/biberon"
+     android:layout_marginLeft="50sp"
+        android:layout_centerHorizontal="true"
+     android:layout_below="@id/txtResSuma"
+     />
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgBiberon"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15sp"
+        android:textColor="@color/white"
+        android:text="Comprobar Resultado"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btnRetSuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgBiberon"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="15sp"
+        android:textColor="@color/white"
+        android:text="Retornar"
+        android:onClick="onClick"
+
+        />
+
+</RelativeLayout>

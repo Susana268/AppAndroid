@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral_variant80"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgvDino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dino2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        android:layout_centerVertical="true"
+    />
+
+    <Button
+        android:id="@+id/btnTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgvDino"
+        android:layout_margin="15sp"
+        android:text="Que tipo de dino es?"
+        />
+
+    <Button
+        android:id="@+id/btnTamanio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTipo"
+        android:layout_margin="15sp"
+        android:text=" De que tamanio es?"
+        />
+
+</RelativeLayout>
