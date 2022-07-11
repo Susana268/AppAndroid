@@ -7,23 +7,115 @@
     tools:context=".MainActivityXVIII"
     android:orientation="vertical">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SIGLO XVIII"
-        android:textSize="25sp"
-        android:gravity="center"
-        android:layout_marginTop="25sp"
-        android:textStyle="bold"
-        />
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btnReturnXVIII"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Retornar"
-        android:onClick="onClick"
-        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/TituloXVIII"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginTop="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:text="@string/ResXVIII"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:textIsSelectable="true"
+                android:textSize="20sp"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:text="@string/TXVII1"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"
+                android:justificationMode="inter_word"
+                android:text="@string/PoemaXVIII1"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_nina"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:textIsSelectable="true"
+                android:textSize="20sp"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:text="@string/TXVIII2"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"
+                android:justificationMode="inter_word"
+                android:text="@string/PoemaXVIII2"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:textIsSelectable="true"
+                android:textSize="20sp"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:text="@string/TXVII3"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"
+                android:justificationMode="inter_word"
+                android:text="@string/PoemaXVIII3"
+                android:gravity="center"
+                />
+            <Button
+                android:id="@+id/btnReturnXVIII"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Retornar"
+                android:onClick="onClick"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
 
 </LinearLayout>

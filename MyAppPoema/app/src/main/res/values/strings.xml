@@ -1,3 +1,238 @@
 <resources>
     <string name="app_name">MyAppPoema</string>
+
+    <string name="TituloPreco">
+        "Literatura Precolombina"
+    </string>
+    <string name="ResPreco">
+        "La literatura guatemalteca nace antes de la llegada de los conquistadores españoles a la región. La cultura precolombina local fue muy rica y aún influye en las producciones literarias de la nación. Puede decirse, entonces, que la literatura guatemalteca es aquella desarrollada por autores de Guatemala ya sea en español o en cualquiera de los 23 idiomas que se hablan en el país.
+        \n En cuanto a la literatura precolombina, se destacan dos grandes obras en lengua quiché: el Popol Vuh, un compilado de historias y leyendas mayas que fue traducido al español por Fray Francisco Ximénez a comienzos del siglo XVIII, y el Rabinal Achí, una obra dramática con bailes y textos que data del siglo XV."
+    </string>
+    <string name="TPreco1">
+        "El sombreron"
+    </string>
+    <string name="PoemaPreco1">
+        "Cuenta la leyenda, que existe un hombre bajito que siempre lleva consigo una guitarra, un cinturón y unas espuelas de plata. Su rasgo mas resaltante es que tiene siempre en su cabeza, un sobrero de alas enormes, y siempre anda montado en un caballo.
+        \n Muchos afirman, que este, es un espectro que anda por las calles tocando la guitarra, y es muy enamoradizo de jóvenes de ojos grandes y pelo largo. Se dice que si el “Sombrerón” se ha fijado en una, la empieza a seguir tocando una Serenata, luego, por las noches se le aparece y le hace una trenza en su cabello para que ella pierda el apetito y después, muera. La manera de que una chica pueda evadir el interés del Sombrerón, es cortarse su cabello cuando ella haya sido selecta por él. Así, sólo se podrá salvar."
+     </string>
+    <string name="TPreco2">
+        "Rabinal Achí"
+    </string>
+     <string name="PoemaPreco2">
+        "En el “Rabinal Achí” se narra cómo los Rabinaleb se rebelan y separan de la confederación política de los K’iche’s, al intentar estos conquistar el valle de Rabinal. Los K’iche’s mantenían, en la época, el dominio político sobre vastas regiones y pueblos. En la obra, K’ich’e Achí, guerrero de los K’ich’es, es capturado por el guerrero de los Rabinaleb, Rabinal Achí, en las afueras de Kajyub’, cuyo dignatario es Job’ Toj; el guerrero K’ich’e es juzgado y condenado a muerte. Antes de ser sacrificado, K’ich’e Achí pide tomar la bebida ceremonial embriagante de los Rabinaleb y bailar con la princesa de Kajyub llamada Uchuch Q’uq’ Uchuch Raxon “La madre de las Plumas Verdes, la Madre de las Plumas Azules”; así también pide que le concedan 260 días para ir a despedirse de su tierra. Una vez concedidos todos estos deseos, K’ich’e Achí es sacrificado por los guerreros águilas y los guerreros jaguares al mando de Rabinal Achí."
+     </string>
+    <string name="TPreco3">
+        "Cantata"
+    </string>
+    <string name="PoemaPreco3">
+        "¡Patria de las perfectas luces, tuya
+    la ingenua, agraria y melodiosa fiesta,
+    campos que cubren hoy brazos de cruces!
+    \n
+    ¡Patria de los perfectos lagos, altos
+    espejos que tu mano acerca al cielo
+    para que vea Dios tantos estragos!
+    \n
+    ¡Patria de los perfectos montes, cauda
+    de verdes curvas imantando auroras,
+    hoy por cárcel te dan tus horizontes!
+    \n
+    ¡Patria de los perfectos días, horas
+    de pájaros, de flores, de silencio
+    que ahora, ¡oh dolor!, son agonías!
+    \n
+    ¡Patria de los perfectos cielos, dueña
+    de tardes de oro y noches de luceros,
+    alba y poniente que hoy visten tus duelos!"
+    </string>
+    <string name="TituloXVIII">
+        "Literatura Siglo XVIII"
+    </string>
+    <string name="ResXVIII">
+        "En el siglo XVIII, se destacaron escritores como Rafael Landívar (1731–1793), quien suele ser nombrado como el primer gran poeta de Guatemala, y Rafael García Goyena (1766–1823).
+        \n La siguiente centuria mostraría una literatura nacional cada vez más independiente de la influencia española. María Josefa García Granados (1796–1884), José Batres Montúfar (1809–1844), José Milla y Vidaurre (1822–1882) y Enrique Gómez Carrillo (1873–1927) son algunos de los principales autores de la época."
+    </string>
+    <string name="TXVII1">
+        "A la ciudad de Guatemala"
+    </string>
+    <string name="PoemaXVIII1">
+       "¡Oh salve, Patria para mí querida,
+        mi dulce hogar, oh salve Guatemala!
+        Tú el encanto y origen de mi vida.
+
+        ¡Cuánto, tierra bendita, se regala
+        el ánimo evocando de tu suelo
+        las prendas todas, de natura gala!
+
+        Me acuerdo de tu clima y de tu cielo,
+        a tus fuentes me asomo, y se pasea
+        por tus henchidas calles ¡ay! mi anhelo.
+
+        En tus templos mi vista se recrea,
+        y a la sombra encontrarme de tus lares,
+        a ti volando el corazón desea.
+
+        A veces me parece los pinares
+        divisar de tus montes, y las frondas
+        que esmeraldas semejan a millares.
+
+        Ver por las mieses tus campiñas blondas,
+        campiñas en perenne primavera
+        a las que riegan cristalinas ondas.
+
+        Con frecuencia la imagen placentera
+        surge en mi mente, de tus muchos ríos
+        que huyendo van en rápida carrera
+        en torno de los márgenes sombríos;
+        o bien el interior de tus hogares
+        er me figuro lleno de atavíos.
+
+        Vuela después mi mente a otros lugares,
+        y sorprende jardines matizados
+        de Venus por las rosas singulares.
+
+        Mas a do se encaminan exaltados
+        mis pensamientos, cuando aún los tapices
+        de seda evoco en oro recamados,
+        y el purpúreo vellón…? Firmes raíces
+        el patrio amor en nuestras almas echa,
+        al refrescar memorias tan felices.
+
+        Memorias en que, al verse por la flecha
+        el infortunio herido, luego ufano
+        en ellas paz el ánimo cosecha.
+
+        Pero me engaño: que injuriosa mano
+        vino a agitar mi sosegada mente,
+        y mi ánimo a burlar ensueño vano.
+
+        ¡Ay! la ciudad que ayer fuera esplendente
+        alcázar y del reino la señora,
+        admiración y pasmo de la gente;
+
+        ¡de piedras un acervo es sólo ahora…!
+        casas, templos y calles…no le quedan;
+        y aún del monte a la cumbre protectora
+        no cabe por do ir, que se lo vedan
+        los edificios que en fatal ruina
+        de sus alturas hasta el polvo ruedan.
+
+        ¡Todo cae…! Parece que fulmina
+        sus aligeros fuegos el tonante,
+        y con su roce todo lo extermina.
+
+        Mas ¿para qué deploro sollozante
+        tanta escena de muerte y tanto estrago?
+        ¡Espectáculo nuevo ved delante…!
+
+        Ya del sepulcro surgen, y ya el vago
+        viento nuevas mansiones señorean
+        y airosos templos; sienten el halago
+        del céfiro las fuentes que ya ondean;
+        torna el pueblo a llenar el avenida,
+        y alma quietud de cuantos lo desean.
+
+        Más que de Egipto el ave eclarecida
+        dichosa Guatemala, nuevamente
+        de sus cenizas propias saca vida.
+
+        ¡Oh rediviva Madre! Alza la frente
+        en júbilo bañada; y ya al amparo
+        de otro nuevo desastre largamente,
+        puedas vivir. En tanto, yo el preclaro
+        triunfo que de la muerte has obtenido
+        celebraré en mis versos sin reparo,
+        y haré sea en los astros conocido.
+        Por fin, mi ronco plectro con intensa
+        Ternura te consagro; y sólo pido
+        Tenerte a ti, por premio y recompensa."
+    </string>
+    <string name="TXVIII2">
+        "La niña de Gutemala, la que murio de amor"
+    </string>
+    <string name="PoemaXVIII2">
+        "Quiero, a la sombra de un ala,
+        contar este cuento en flor:
+        la niña de Guatemala,
+        la que se murió de amor…
+        Allí, en la bóveda helada,
+        la pusieron en dos bancos:
+        besé su mano afilada,
+        besé sus zapatos blancos.
+        Callado, al oscurecer,
+        me llamó el enterrador;
+        nunca más he vuelto a ver
+        a la que murió de amor."
+    </string>
+    <string name="TXVII3">
+        "AMISTAD"
+    </string>
+    <string name="PoemaXVIII3">
+        "Yo tengo, dijo Andrés, unas piaras
+de marranos ingratos, cuyas caras
+no he podido mirarles en mi vida,
+sino al tiempo de darles la comida.
+        \n
+Me tienen afligido,
+pues unos diez o doce se han huido
+y los oíros notando mi pobreza,
+con gruñidos me aturden la cabeza,
+y me dan costaladas,
+mordidas, reempujones y hocicadas;
+de suerte que no quiero ya ni verlos.
+        \n
+—Razón tienes, le dije, vé a venderlos,
+o matarlos, y quedas satisfecho,
+pues muertos o vendidos dan provecho:
+si los vendes, te aumentan el dinero,
+y si no, te sazonan el puchero.
+—Yo me diera, dijo él, aquesa traza
+si fueran los cochinos de otra raza;
+pero aquestos merecen mil castigos.
+—Pues, ¿qué puercos son esos?"
+    </string>
+
+    <string name="TituloXX">
+        "literatura Siglo XX"
+    </string>
+    <string name="ResXX">
+        "Ya en el siglo XX, se destacarían dos de las principales figuras de toda la historia de la literatura guatemalteca: el novelista Miguel Ángel Asturias, autor de «El señor presidente» y ganador del Premio Nobel en 1967, y el cuentista y novelista Augusto Monterroso, quien recibió el Premio Príncipe de Asturias en 2000."
+    </string>
+    <string name="TXX1">
+        "El señor presidente"
+    </string>
+    <string name="PoemaXX1">
+        "La novela comienza en «El portal del señor», donde los mendigos pasan la noche. Uno de los mendigos, el Pelele, está agotado después de haber sido continuamente acosado sobre su madre fallecida. Cuando el coronel José Parrales Sonriente, uno de los militares leales al presidente, se burla de él con la palabra «madre», el Pelele reacciona por instinto y asesina al coronel. Los mendigos son interrogados y torturados para obligarles a implicar al general retirado Eusebio Canales, anterior miembro del ejército del Presidente, y al abogado independiente Abel Carvajal, en el asesinato del coronel, ya que, según los hombres del presidente, no hay manera de que «un idiota sea responsable». Mosco, un vagabundo, muere por decir que Pelele era el responsable.14​Mientras tanto, un delirante Pelele «escapó por las calles en tinieblas enloquecido bajo la acción de espantoso paroxismo»"
+    </string>
+    <string name="TXX2">
+        "La Oveja Negra"
+    </string>
+    <string name="PoemaXX2">
+        "En un lejano país existió hace
+muchos años una Oveja negra.
+Fue fusilada. Un siglo después,
+el rebaño arrepentido le
+levantó una estatua
+ecuestre que quedó
+muy bien en el parque.
+\n
+Así, en lo sucesivo, cada vez que
+aparecían ovejas negras eran
+rápidamente pasadas por las
+armas para que las futuras
+generaciones de ovejas
+comunes y corrientes
+pudieran ejercitarse
+también en la escultura."
+    </string>
+    <string name="TXX3">
+        "Nube"
+    </string>
+    <string name="PoemaXX3">
+        "La nube de verano
+es pasajera, así como
+las grandes pasiones son
+nubes de verano, o de
+invierno, según el caso"
+    </string>
 </resources>
