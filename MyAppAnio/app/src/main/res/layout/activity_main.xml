@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculo con Años"
+        android:gravity="center"
+        android:layout_marginTop="30sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/txtAnio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginTop="20sp"
+        android:hint="Ingrese el año"
+        android:inputType="number"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAnio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+        android:text="Calcular"
+        />
+
+</RelativeLayout>

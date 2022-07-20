@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MyListViewBandera</string>
+    <string name="PGuatemala">
+        GUATEMALA
+        \n
+        Habitantes 17.4 Millones
+    </string>
+    <string name="PSalvador">
+        EL SALVADOR
+        \n
+        Habitantes 6.53 Millones
+    </string>
+    <string name="PHonduras">
+        HONDURAS
+        \n
+        Habitantes 10.00 Millones
+    </string>
+    <string name="PNicaragua">
+        NICARAGUA
+        \n
+        Habitantes 6.74 Millones
+    </string>
+    <string name="PCostaRica">
+        COSTA RICA
+         \n
+        Habitantes 5.182 Millones
+    </string>
+    <string name="PPanama">
+        PANAMA
+         \n
+        Habitantes 4.446 Millones
+    </string>
+    <string name="PBrasil">
+        BRASIL
+         \n
+        Habitantes 215.15 Millones
+    </string>
+    <string name="PChile">
+        CHILE
+         \n
+        Habitantes 19.250 Millones
+    </string>
+    <string name="PVenezuela">
+        VENEZUELA
+         \n
+        Habitantes 29.266 Millones
+    </string>
+    <string name="PEcuador">
+        ECUADOR
+         \n
+        Habitantes 18.00 Millones
+    </string>
+</resources>
