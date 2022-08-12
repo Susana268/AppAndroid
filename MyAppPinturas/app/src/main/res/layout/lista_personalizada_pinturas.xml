@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<ImageView
+    android:id="@+id/imgListaPintura"
+    android:layout_width="100sp"
+    android:layout_height="100sp"
+    android:src="@drawable/ic_pintura_lista"
+    android:layout_margin="25sp"
+    android:layout_gravity="center"
+    />
+
+ <TextView
+     android:id="@+id/txtNomPintura"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Ronda de Noche"
+     android:textSize="20sp"
+     android:textStyle="bold"
+     android:layout_gravity="center"
+     android:layout_below="@id/imgListaPintura"
+     />
+
+    <TextView
+        android:id="@+id/txtPrecioPintura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150sp"
+        android:text="15000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"/>
+
+    <TextView
+        android:id="@+id/txtDesPintura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Los detalles de la pintura"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        />
+
+    <Button
+        android:id="@+id/btnVerPintura"
+        android:layout_width="150sp"
+        android:layout_height="35sp"
+        android:layout_below="@id/txtNomPintura"
+        android:layout_gravity="center"
+        android:text="Adquirir"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"
+        />
+</LinearLayout>

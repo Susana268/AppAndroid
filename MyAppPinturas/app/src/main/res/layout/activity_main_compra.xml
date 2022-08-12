@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainCompra"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgCompra"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_pintura"
+        android:layout_marginTop="20sp"
+        />
+    <TextView
+        android:id="@+id/txtNomCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ronda de Noche"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_below="@id/imgCompra"
+        android:layout_marginTop="15sp"
+        />
+    <TextView
+        android:id="@+id/txtPrecioCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150sp"
+        android:text="15000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"
+        />
+    <EditText
+        android:id="@+id/txtNomCteCompra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Cliente"
+        android:layout_margin="15sp"
+        />
+    <EditText
+        android:id="@+id/txtApeCteCompra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido Cliente"
+        android:layout_margin="15sp"
+        />
+    <EditText
+        android:id="@+id/txtNitCteCompra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIT de Cliente"
+        android:layout_margin="15sp"
+        />
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="150sp"
+        android:layout_height="35sp"
+        android:layout_below="@id/txtNitCteCompra"
+        android:layout_gravity="center"
+        android:text="Comprar"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"
+        />
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="150sp"
+        android:layout_height="35sp"
+        android:layout_below="@id/btnComprar"
+        android:layout_gravity="center"
+        android:text="Cancelar"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"
+        />
+</LinearLayout>

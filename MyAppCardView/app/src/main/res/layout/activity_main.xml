@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        app:cardBackgroundColor="#CCBEEF"
+        android:layout_margin="15sp"
+        app:cardCornerRadius="25sp"
+        app:cardElevation="15sp"
+        app:contentPadding="15sp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="45sp"
+            android:text="CLIMA"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="right"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        app:cardBackgroundColor="#CCBEEF"
+        android:layout_margin="15sp"
+        app:cardCornerRadius="25sp"
+        app:cardElevation="15sp"
+        app:contentPadding="15sp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="45sp"
+            android:text="HORA"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="right"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        app:cardBackgroundColor="#CCBEEF"
+        android:layout_margin="15sp"
+        app:cardCornerRadius="25sp"
+        app:cardElevation="15sp"
+        app:contentPadding="15sp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="45sp"
+            android:text="SALUDO"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="right"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        app:cardBackgroundColor="#CCBEEF"
+        android:layout_margin="15sp"
+        app:cardCornerRadius="25sp"
+        app:cardElevation="15sp"
+        app:contentPadding="15sp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="45sp"
+            android:text="DEPORTES"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="right"
+            />
+
+    </androidx.cardview.widget.CardView>
+        <ListView
+            android:id="@+id/ListCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:nestedScrollingEnabled="true"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

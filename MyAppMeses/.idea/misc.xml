@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppMeses/app/src/main/res/layout/activity_main.xml" value="0.4023809523809524" />
+        <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppMeses/app/src/main/res/layout/activity_macalendario.xml" value="0.2" />
+        <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppMeses/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppMeses/app/src/main/res/layout/list_personalizada.xml" value="0.2" />
+        <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppMeses/app/src/main/res/menu/menu_item.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
