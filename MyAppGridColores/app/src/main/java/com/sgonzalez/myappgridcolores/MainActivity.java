@@ -65,8 +65,15 @@ public class MainActivity extends AppCompatActivity {
         imagenes.add(R.color.gris);
         imagenes.add(R.color.morado);
         imagenes.add(R.color.rojo);
+        imagenes.add(R.color.white);
+        imagenes.add(R.color.black);
+        imagenes.add(R.color.teal_700);
+        imagenes.add(R.color.teal_200);
+        imagenes.add(R.color.purple_700);
+        imagenes.add(R.color.purple_500);
         return imagenes;
     }
+
 
     private ArrayList<String> valores(){
         ArrayList<String> valores = new ArrayList<>();
@@ -74,6 +81,12 @@ public class MainActivity extends AppCompatActivity {
         valores.add("#AEB6BF");
         valores.add("#8E32FA");
         valores.add("#FA3241");
+        valores.add("#FFFFFFFF");
+        valores.add("#FF000000");
+        valores.add("#FF018786");
+        valores.add("#FF03DAC5");
+        valores.add("#FF3700B3");
+        valores.add("#FF6200EE");
         return valores;
     }
     private void traslado(int position){
