@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="nombre01">
+    Smartphone
+</string>
+    <string name="precio01">
+        Q.5000.00
+    </string>
+<string name="detalle01">
+    Prueba de detalle para el producto 1
+</string>
+<string name="especificaciones01">
+    1.  Lorem ipsum dolor sit amet.\n
+    2. Consectetur adipiscing elit.\n
+    3. Aliquam maximus erat quis ante dictum efficitur.\n
+    4. Nullam non sem et quam porta aliquet eget et nisl.\n
+    5. Sed hendrerit sagittis orci.\n
+    6. Elementum consequat nisi malesuada in.\n
+    7. Nullam pretium consectetur lorem.\n
+    8. Blandit mattis justo sodales eu.\n
+    9. Praesent iaculis purus at justo tincidunt vehicula.\n
+    10.    Morbi tincidunt convallis pretium.\n
+    11.    Phasellus gravida, dolor quis facilisis sollicitudin.\n
+    12.    Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+    13.    Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+    14.    Quisque vulputate leo vel tortor commodo rutrum.\n
+    15.    Mauris tempor vestibulum rutrum.\n
+    16.    Nam laoreet lorem a ligula elementum laoreet.\n
+</string>
+    <string name="nombre02">
+    Laptop
+</string>
+    <string name="precio02">
+        Q.8000.00
+    </string>
+    <string name="detalle02">
+    Prueba de detalle para el producto 2
+</string>
+    <string name="especificaciones02">
+    1.  Lorem ipsum dolor sit amet.\n
+    2. Consectetur adipiscing elit.\n
+    3. Aliquam maximus erat quis ante dictum efficitur.\n
+    4. Nullam non sem et quam porta aliquet eget et nisl.\n
+    5. Sed hendrerit sagittis orci.\n
+    6. Elementum consequat nisi malesuada in.\n
+    7. Nullam pretium consectetur lorem.\n
+    8. Blandit mattis justo sodales eu.\n
+    9. Praesent iaculis purus at justo tincidunt vehicula.\n
+    10.    Morbi tincidunt convallis pretium.\n
+    11.    Phasellus gravida, dolor quis facilisis sollicitudin.\n
+    12.    Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+    13.    Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+    14.    Quisque vulputate leo vel tortor commodo rutrum.\n
+    15.    Mauris tempor vestibulum rutrum.\n
+    16.    Nam laoreet lorem a ligula elementum laoreet.\n
+</string><string name="nombre03">
+    Auriculares
+</string>
+    <string name="precio03">
+        1
+    </string>
+    <string name="detalle03">
+    Prueba de detalle para el producto 3
+</string>
+    <string name="especificaciones03">
+     1.  Lorem ipsum dolor sit amet.\n
+    2. Consectetur adipiscing elit.\n
+    3. Aliquam maximus erat quis ante dictum efficitur.\n
+    4. Nullam non sem et quam porta aliquet eget et nisl.\n
+    5. Sed hendrerit sagittis orci.\n
+    6. Elementum consequat nisi malesuada in.\n
+    7. Nullam pretium consectetur lorem.\n
+    8. Blandit mattis justo sodales eu.\n
+    9. Praesent iaculis purus at justo tincidunt vehicula.\n
+    10.    Morbi tincidunt convallis pretium.\n
+    11.    Phasellus gravida, dolor quis facilisis sollicitudin.\n
+    12.    Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+    13.    Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+    14.    Quisque vulputate leo vel tortor commodo rutrum.\n
+    15.    Mauris tempor vestibulum rutrum.\n
+    16.    Nam laoreet lorem a ligula elementum laoreet.\n
+</string><string name="nombre04">
+    Smart TV
+</string>
+    <string name="precio04">
+        1
+    </string>
+    <string name="detalle04">
+    Prueba de detalle para el producto 4
+</string>
+    <string name="especificaciones04">
+    1.  Lorem ipsum dolor sit amet.\n
+    2. Consectetur adipiscing elit.\n
+    3. Aliquam maximus erat quis ante dictum efficitur.\n
+    4. Nullam non sem et quam porta aliquet eget et nisl.\n
+    5. Sed hendrerit sagittis orci.\n
+    6. Elementum consequat nisi malesuada in.\n
+    7. Nullam pretium consectetur lorem.\n
+    8. Blandit mattis justo sodales eu.\n
+    9. Praesent iaculis purus at justo tincidunt vehicula.\n
+    10.    Morbi tincidunt convallis pretium.\n
+    11.    Phasellus gravida, dolor quis facilisis sollicitudin.\n
+    12.    Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+    13.    Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+    14.    Quisque vulputate leo vel tortor commodo rutrum.\n
+    15.    Mauris tempor vestibulum rutrum.\n
+    16.    Nam laoreet lorem a ligula elementum laoreet.\n
+</string>
+</resources>

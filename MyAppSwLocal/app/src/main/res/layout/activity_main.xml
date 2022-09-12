@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CRUD SW - Productos"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_margin="15sp"
+        android:layout_gravity="center"
+        />
+<ImageView
+    android:layout_width="100sp"
+    android:layout_height="100sp"
+    android:src="@drawable/ic_producto"
+    android:layout_gravity="center"
+    android:layout_margin="10sp"
+    />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnInsertarMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Ingrese Producto"
+        android:backgroundTint="#303F9F"
+        android:textSize="15sp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnActualisarrMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Actualizar Producto"
+        app.icon="@drawable/ic_producto"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBuscarMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Buscar Producto"
+        app.icon="@drawable/ic_producto"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16sp"
+        app:srcCompat="@drawable/ic_producto" />
+
+</LinearLayout>

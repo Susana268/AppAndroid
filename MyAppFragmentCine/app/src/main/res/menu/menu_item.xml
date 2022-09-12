@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/itemLista"
+    android:title="Lista"
+    android:icon="@drawable/ic_lista"
+    app:showAsAction="ifRoom"
+    />
+<item
+    android:id="@+id/itemCuadro"
+    android:icon="@drawable/ic_cuadro"
+    android:title="Cuadro"
+    app:showAsAction="ifRoom"
+    />
+
+</menu>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="nombre01">
+    La Chica Salvaje
+    </string>
+    <string name="duracion01">
+    1 hora 30 minutos
+    </string>
+    <string name="sinopsis01">
+    Cuenta la historia de Kya, una niña abandonada que se crió hasta la edad adulta en los peligrosos pantanos de Carolina del Norte. Durante años, los rumores sobre la "chica del pantano" persiguieron a Barkley Cove, aislando a la aguda y resistente Kya de su comunidad. Atraída por dos jóvenes del pueblo, Kya se abre a un mundo nuevo y sorprendente; pero cuando uno de ellos aparece muerto, la comunidad la considera inmediatamente la principal sospechosa. A medida que el caso se desarrolla, el veredicto sobre lo que realmente sucedió se vuelve cada vez más confuso, amenazando con revelar los muchos secretos que se esconden en el pantano.
+    </string>
+    <string name="director01">
+    Olivia Newman
+    </string>
+    <string name="puntuacion01">
+    100 puntos
+    </string>
+    <string name="precio01">
+    45
+    </string>
+<string name="nombre02">
+    Thor
+    </string>
+    <string name="duracion02">
+    1 hora 30 minutos
+    </string>
+    <string name="sinopsis02">
+    Cuarta película sobre "Thor" del MCU, en la que el Dios del trueno contará con Lady Thor como acompañante, personaje que interpretará Natalie Portman.
+    </string>
+    <string name="director02">
+    Taika Waitit
+    </string>
+    <string name="puntuacion02">
+    100 puntos
+    </string>
+    <string name="precio02">
+    45
+    </string>
+<string name="nombre03">
+    El fantasma
+    </string>
+    <string name="duracion03">
+    1 hora 30 minutos
+    </string>
+    <string name="sinopsis03">
+    Leah, de 10 años, vive en una gran vicaría, llena de almas perdidas y necesitados. Durante el día, la casa está llena de gente; por la noche está oscuro, vacío, un espacio para que las pesadillas de Leah se cuelen. Un pequeño visitante nocturno trae consuelo a Leah, pero pronto se dará cuenta de que su pequeño visitante ofrece conocimientos que podrían ser muy, muy peligrosos.
+    </string>
+    <string name="director03">
+    Ruth Plat
+    </string>
+    <string name="puntuacion03">
+    100 puntos
+    </string>
+    <string name="precio03">
+    45
+    </string>
+<string name="nombre04">
+    Titanic 666
+    </string>
+    <string name="duracion04">
+    1 hora 30 minutos
+    </string>
+    <string name="sinopsis04">
+    Las fuerzas oscuras de las profundidades suben a la superficie, aterrorizando a todos a bordo del Titanic III y amenazando con repetir uno de los mayores desastres de la historia. Producción de terror de The Asylum, creadores de "Titanic 2".
+    </string>
+    <string name="director04">
+    Nick Lyo
+    </string>
+    <string name="puntuacion04">
+    100 puntos
+    </string>
+    <string name="precio04">
+    45
+    </string>
+<string name="nombre05">
+    Alarido
+    </string>
+    <string name="duracion05">
+    1 hora 30 minutos
+    </string>
+    <string name="sinopsis05">
+    Una joven madre queda atrincherada dentro de la despensa de su casa en medio de la nada, dejando a sus dos pequeños bebés solos y expuestos a un escalofriante peligro. Deberá utilizar todo su ingenio, para protegerlos desde adentro mientras encuentra una forma de escapar.
+    </string>
+    <string name="director05">
+    D.J. Carus
+    </string>
+    <string name="puntuacion05">
+    100 puntos
+    </string>
+    <string name="precio05">
+    45
+    </string>
+<string name="nombre06">
+    NOP
+    </string>
+    <string name="duracion06">
+    1 hora 30 minutos
+    </string>
+    <string name="sinopsis06">
+    Es la historia de dos hermanos y residentes de un pueblo remoto en el interior de California que luego de que objetos aleatorios que caen del cielo provocan la muerte de su padre deciden grabar un video de un ‘ovni’ al que llaman ‘Jean Jacket’.
+    </string>
+    <string name="director06">
+    Jordan Pee
+    </string>
+    <string name="puntuacion06">
+    100 puntos
+    </string>
+    <string name="precio06">
+    45
+    </string>
+
+</resources>

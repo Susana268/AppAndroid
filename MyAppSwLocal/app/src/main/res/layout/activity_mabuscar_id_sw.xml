@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MABuscarIdSW"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Producto"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFE"
+        >
+        <EditText
+            android:id="@+id/edtCodigoProductoBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese Codigo de Producto a Buscar"
+            android:layout_margin="15sp"
+            />
+         <ImageButton
+             android:id="@+id/imbBuscar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="15sp"
+             android:src="@drawable/ic_suma_foreground"
+             android:backgroundTint="@color/white"
+             />
+
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        app:cardCornerRadius="15sp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/txtCodigoBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Codigo"
+            />
+        <TextView
+            android:id="@+id/txtNombreBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Nombre"
+            />
+
+        <TextView
+            android:id="@+id/txtMarcaBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="marca"
+            />
+        <TextView
+            android:id="@+id/txtModeloBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="modelo"
+            />
+        <TextView
+            android:id="@+id/txtFechaBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Fecha"
+            />
+        <TextView
+            android:id="@+id/txtUnidadBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="unidad"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

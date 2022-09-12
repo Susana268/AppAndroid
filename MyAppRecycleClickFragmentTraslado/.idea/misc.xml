@@ -3,10 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppRecycleClickFragmentTraslado/app/src/main/res/layout/activity_ma_informacion_adicional.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppRecycleClickFragmentTraslado/app/src/main/res/layout/activity_ma_informacion_adicional.xml" value="0.4" />
+        <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppRecycleClickFragmentTraslado/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppRecycleClickFragmentTraslado/app/src/main/res/layout/fragment_detalle.xml" value="0.22146739130434784" />
         <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppRecycleClickFragmentTraslado/app/src/main/res/layout/fragment_especificaciones.xml" value="0.22146739130434784" />
-        <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppRecycleClickFragmentTraslado/app/src/main/res/layout/recycle_item.xml" value="0.1" />
+        <entry key="..\:/Users/Susana Gonzalez/OneDrive/Documentos/CarreraJava/Android/MyAppRecycleClickFragmentTraslado/app/src/main/res/layout/recycle_item.xml" value="0.2" />
       </map>
     </option>
   </component>

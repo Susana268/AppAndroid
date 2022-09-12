@@ -29,44 +29,44 @@
         android:textStyle="bold"
 
 />
+
     <Button
         android:id="@+id/btnMas"
         android:layout_width="120sp"
         android:layout_height="wrap_content"
-        android:text="+"
-        android:textSize="55sp"
-        android:textStyle="bold"
         android:layout_below="@id/txtContador"
-        android:layout_marginTop="20sp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
         android:backgroundTint="@android:color/holo_green_dark"
         android:onClick="onClick"
-        />
+        android:text="+"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/btnMenos"
         android:layout_width="120sp"
         android:layout_height="wrap_content"
-        android:text="-"
-        android:textSize="55sp"
-        android:textStyle="bold"
         android:layout_below="@id/btnMas"
-        android:layout_marginTop="20sp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
         android:backgroundTint="@android:color/holo_green_dark"
         android:onClick="onClick"
-        />
+        android:text="-"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/btnLimpia"
         android:layout_width="120sp"
         android:layout_height="wrap_content"
-        android:text="Limpia"
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:layout_below="@id/btnMenos"
-        android:layout_marginTop="20sp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
         android:backgroundTint="@android:color/holo_green_dark"
         android:onClick="onClick"
-        />
+        android:text="Limpia"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardado de Informacion"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_margin="25sp"
+        />
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Nombre"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/edtApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Apellido"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/edtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese edad"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Direccion"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btnAlmacenarSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Almacenar Datos"
+        android:layout_margin="15sp"
+        />
+</LinearLayout>
