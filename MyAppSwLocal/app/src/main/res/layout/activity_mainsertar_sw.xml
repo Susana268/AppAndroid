@@ -93,7 +93,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="15sp"
         android:hint="Ingresar Fecha de Ingreso"
-        android:textColorHint="#FFA000"
+        android:textColorHint="#C3C3C3"
         app:helperTextEnabled="false"
         app:endIconMode="clear_text"
         app:boxBackgroundMode="outline"
@@ -116,7 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="15sp"
         android:hint="Ingresar Unidad de Medida"
-        android:textColorHint="#FFA000"
+        android:textColorHint="#C3C3C3"
         app:helperTextEnabled="false"
         app:endIconMode="clear_text"
         app:boxBackgroundMode="outline"
@@ -139,7 +139,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="15sp"
         android:text="Registrar Producto"
-        app:icon="@drawable/ic_suma_foreground"
+        app:icon="@drawable/ic_add"
         />
 
 

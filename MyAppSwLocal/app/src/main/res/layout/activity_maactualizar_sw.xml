@@ -4,23 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MAEliminarSW"
+    tools:context=".MAActualizarSw"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Eliminar Productos"
+        android:text="Actualizar Productos"
         android:textStyle="bold"
         android:textSize="25sp"
         android:gravity="center"
         android:layout_margin="15sp"
         android:layout_gravity="center"
         />
-
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="150sp"
+        android:layout_height="200sp"
         app:cardCornerRadius="15sp"
         android:layout_margin="15sp"
         android:elevation="15sp"
@@ -32,72 +31,66 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <ListView
-                android:id="@+id/lvListarEliminarProductos"
+                android:id="@+id/lvListarActualizarProductos"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                />
+            />
 
         </LinearLayout>
 
 
     </androidx.cardview.widget.CardView>
-
     <EditText
-        android:id="@+id/edtNombreProductoE"
+        android:id="@+id/edtNombreProducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nombre Producto"
-        android:layout_margin="5sp"
+        android:layout_margin="10sp"
         android:inputType="text"
         android:textSize="20sp"
-        android:enabled="false"
         />
     <EditText
-        android:id="@+id/edtMarcaProductoE"
+        android:id="@+id/edtMarcaProducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Marca Producto"
-        android:layout_margin="5sp"
+        android:layout_margin="10sp"
         android:inputType="text"
         android:textSize="20sp"
-        android:enabled="false"
         />
     <EditText
-        android:id="@+id/edtModeloProductoE"
+        android:id="@+id/edtModeloProducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Modelo Producto"
-        android:layout_margin="5sp"
+        android:layout_margin="10sp"
         android:inputType="text"
         android:textSize="20sp"
-        android:enabled="false"
         />
     <EditText
-        android:id="@+id/edtFechaIngresoE"
+        android:id="@+id/edtFechaIngreso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Fecha Ingreso"
-        android:layout_margin="5sp"
+        android:layout_margin="10sp"
         android:inputType="date"
         android:textSize="20sp"
-        android:enabled="false"
         />
     <EditText
-        android:id="@+id/edtUnidadMedidaE"
+        android:id="@+id/edtUnidadMedida"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Unidad de Medida"
-        android:layout_margin="5sp"
+        android:layout_margin="10sp"
         android:inputType="numberDecimal"
         android:textSize="20sp"
-        android:enabled="false"
         />
     <Button
-        android:id="@+id/btnEliminarProductoE"
+        android:id="@+id/btnActualiarProducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5sp"
-        android:text="Eliminarr Producto"
+        android:layout_margin="15sp"
+        android:text="Actualizar Producto"
         />
 
 </LinearLayout>

@@ -53,6 +53,7 @@ public class MAInsertarSW extends AppCompatActivity {
            !editTextModelo.getText().toString().isEmpty() &&
            !editTextFechaIngreso.getText().toString().isEmpty() &&
            !editTextUnidadMedida.getText().toString().isEmpty() )   {
+            //Llenado de variables VO por medio del set
             pvo.setNombreProducto(editTextNombre.getText().toString());
             pvo.setMarcaProducto(editTextMarca.getText().toString());
             pvo.setModeloProducto(editTextModelo.getText().toString());

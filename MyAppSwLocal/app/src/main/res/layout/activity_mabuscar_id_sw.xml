@@ -10,7 +10,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Buscar Producto"
+        android:text="Buscar Producto por Codigo"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_margin="15sp"
+        android:layout_gravity="center"
         />
 
     <LinearLayout
@@ -18,85 +23,99 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:background="#FFE"
+        android:layout_margin="15sp"
         >
         <EditText
             android:id="@+id/edtCodigoProductoBuscar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Ingrese Codigo de Producto a Buscar"
+            android:hint="Ingrese Codigo del Producto a buscar"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:layout_margin="15sp"
+            android:inputType="number"
             />
          <ImageButton
              android:id="@+id/imbBuscar"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:layout_margin="15sp"
-             android:src="@drawable/ic_suma_foreground"
-             android:backgroundTint="@color/white"
+             android:src="@drawable/ic_add"
+             android:backgroundTint="#FFE"
              />
-
 
     </LinearLayout>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="150sp"
-        app:cardCornerRadius="15sp"
-
-        />
-    <LinearLayout
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
-        <TextView
-            android:id="@+id/txtCodigoBuscar"
-            android:layout_width="wrap_content"
+        app:cardCornerRadius="20sp"
+        app:cardBackgroundColor="#FFE"
+        android:layout_margin="15sp"
+        android:elevation="15sp"
+        app:cardElevation="15sp"
+        app:contentPadding="10sp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:text="Codigo"
-            />
-        <TextView
-            android:id="@+id/txtNombreBuscar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:text="Nombre"
-            />
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/txtCodigoBuscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10sp"
+                android:text="Codigo"
+                />
+            <TextView
+                android:id="@+id/txtNombreBuscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10sp"
+                android:text="Nombre"
+                />
 
-        <TextView
-            android:id="@+id/txtMarcaBuscar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:text="marca"
-            />
-        <TextView
-            android:id="@+id/txtModeloBuscar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:text="modelo"
-            />
-        <TextView
-            android:id="@+id/txtFechaBuscar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:text="Fecha"
-            />
-        <TextView
-            android:id="@+id/txtUnidadBuscar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:text="unidad"
-            />
+            <TextView
+                android:id="@+id/txtMarcaBuscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10sp"
+                android:text="Marca"
+                />
+            <TextView
+                android:id="@+id/txtModeloBuscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10sp"
+                android:text="Modelo"
+                />
+            <TextView
+                android:id="@+id/txtFechaBuscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10sp"
+                android:text="Fecha Ingreso"
+                />
+            <TextView
+                android:id="@+id/txtUnidadBuscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10sp"
+                android:text="Unidad de Medida"
+                />
 
-    </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
 
 </LinearLayout>
