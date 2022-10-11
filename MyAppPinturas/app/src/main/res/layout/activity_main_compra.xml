@@ -42,6 +42,7 @@
         android:layout_height="wrap_content"
         android:hint="Nombre Cliente"
         android:layout_margin="15sp"
+        android:inputType="text"
         />
     <EditText
         android:id="@+id/txtApeCteCompra"
@@ -49,6 +50,7 @@
         android:layout_height="wrap_content"
         android:hint="Apellido Cliente"
         android:layout_margin="15sp"
+        android:inputType="text"
         />
     <EditText
         android:id="@+id/txtNitCteCompra"
@@ -56,6 +58,7 @@
         android:layout_height="wrap_content"
         android:hint="NIT de Cliente"
         android:layout_margin="15sp"
+        android:inputType="text"
         />
     <Button
         android:id="@+id/btnComprar"

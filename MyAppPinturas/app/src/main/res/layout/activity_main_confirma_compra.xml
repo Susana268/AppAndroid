@@ -1,9 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainConfirmaCompra">
+    tools:context=".MainConfirmaCompra"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gracias por su Compra"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="15sp"
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Nombre Pintura:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtNomCompraF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ronda de Noche"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_below="@id/imgCompra"
+            android:layout_marginTop="15sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Precio Pintura:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtPrecioCompraF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150sp"
+            android:text="15000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15sp"
+            />
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="Nombre del CLiente:"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:id="@+id/txtNomCteF"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="150sp"
+           android:text="Susana"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:layout_marginTop="15sp"
+           />
+       <TextView
+           android:id="@+id/txtApeCteF"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="150sp"
+           android:text="Gonzalez"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:layout_marginTop="15sp"
+           />
+   </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="NIT del CLiente:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtNitCteF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150sp"
+            android:text="454556"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnFinal"
+        android:layout_width="150sp"
+        android:layout_height="35sp"
+        android:layout_below="@id/txtNitCteF"
+        android:layout_gravity="center"
+        android:text="Salir"
+        android:textStyle="bold"
+        android:layout_marginTop="25sp"
+        />
+
+</LinearLayout>
